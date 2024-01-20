@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repositories</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>GitHub Repositories</h1>
+        <input type="text" id="username" placeholder="Search repositories...">
+        <button id="search-button">Search</button>
+    </header>
+    <main>
+        <section id="user-info">
+            <img id="avatar" alt="">
+            <div>
+                <h2 id="username-info"></h2>
+                <p id="bio"></p>
+                <p id="location"></p>
+            </div>
+        </section>
+        <section id="repos">
+            <ul id="repo-list"></ul>
+            <div class="pagination">
+                <button id="prev">Previous</button>
+                <span id="page-info"></span>
+                <button id="next">Next</button>
+            </div>
+            <select id="repos-per-page">
+                <option value="10">10 per page</option>
+                <option value="20">20 per page</option>
+                <option value="50">50 per page</option>
+                <option value="100">100 per page</option>
+            </select>
+        </section>
+    </main>
+    <footer>
+        <p> &copy; 2024 GitHub Repositories. All rights reserved.</p>
+        Made with ❤️ by <a href="https://github.com/sarveshpbiwalkar">Sarvesh Biwalkar</a>
+    </footer>
+    <div class="loader"></div>
+    <script src="script.js"></script>
+</body>
+</html>
