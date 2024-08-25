@@ -7,7 +7,7 @@ There are two ways directly via link or by downloading source code.
    
    https://sarveshpbiwalkar.github.io/Github_repo_clone/
    
-   https://beamish-manatee-b97a82.netlify.app/
+   https://clone-github-repository.netlify.app/
    
 3. #### Downloading source code
    Download all the file in zip format.
